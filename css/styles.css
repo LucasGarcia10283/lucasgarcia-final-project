@@ -64,3 +64,12 @@ img {
     border-radius: 8px;
     max-width: 100%;
 }
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 45%;
+}
