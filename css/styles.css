@@ -12,6 +12,7 @@ body {
     margin: 1;
     color: var(--grey);
     background-color: var(--background);
+    padding: auto;
 }
 
 nav{
