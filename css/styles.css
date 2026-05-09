@@ -65,8 +65,11 @@ img {
     max-width: 100%;
 }
 
-.images {
-    display: flex;
-    justify-content: space-around;
+.images img {
+    display: inline-block;
+    width: 45%;
+    height: 400px;
+    object-fit: cover;
+    margin: 0;
 }
 
