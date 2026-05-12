@@ -29,22 +29,3 @@ function showAlert() {
     alert("Thank you for your interest in a more sustainable future! Please take a look at the products we offer.");
 }
 
-function filterType(e, category) {
-    let cards = document.getElementsByClassName('product-card');
-    let buttons = document.getElementsByClassName('filter-btn');
-
-
-    for (let btn of buttons) {
-        btn.classList.remove('active');
-    }
-    e.event.currentTarget.classList.add('active');
-
-
-    for (let i = 0; i < cards.length; i++) {
-        if (category === 'all' || cards[i].classList.contains(category)) {
-            cards[i].computedStyleMap.display = "flex";
-        } else {
-            cards[i].computedStyleMap.display = "none";
-        }
-    }
-}
