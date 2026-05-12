@@ -120,23 +120,3 @@ img {
     box-sizing: border-box;
 }
 
-.filter {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.filter-btn {
-    background: white;
-    border: 2px solid var(--primary-green);
-    color: var(--primary-green);
-    padding: 10px 25px;
-    margin: 5px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.filter-btn.active, .filter-btn:hover {
-    background: var(--primary-green);
-    color: white
-}
