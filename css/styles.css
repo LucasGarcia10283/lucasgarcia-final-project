@@ -67,18 +67,17 @@ img {
 
 .images {
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
     padding: 20px;
-    align-items: flex-start;
 }
 
 .products {
-    width: 22%;
-    text-align: left;
+    width: calc(25% - 20px);
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .products img {
