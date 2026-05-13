@@ -25,18 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('product-search');
     const productCards = document.querySelectorAll('.products');
 
-    const updateSearchCount = (visible, total) => {
-        if (!searchCount) return;
-
-        if (visible === total) {
-            searchCount.textContent = `Showing all ${total} items.`;
-        } else if (visible === 0) {
-            searchCount.textContent = 'No matches found. Try another term.';
-        } else {
-            searchCount.textContent = `Showing ${visible} of ${total} items.`;
-        }
-    };
-
     const filterProducts = () => {
         const query = searchInput.value.trim().toLowerCase();
         let visibleCount = 0;

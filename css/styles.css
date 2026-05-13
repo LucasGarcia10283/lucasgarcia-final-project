@@ -121,7 +121,7 @@ img {
 }
 
 .search-section {
-    padding: 20px 5%;
+    padding: auto;
 }
 
 .search-bar {
@@ -145,8 +145,6 @@ img {
     background: white;
     color: var(--grey);
 }
-
-
 
 @media (max-width: 768px) {
     .products {
