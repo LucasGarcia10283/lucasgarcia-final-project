@@ -120,3 +120,14 @@ img {
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .products {
+        width: calc(50% -20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .products {
+        width: 100%;
+    }
+}
