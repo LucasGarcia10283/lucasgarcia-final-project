@@ -120,6 +120,38 @@ img {
     box-sizing: border-box;
 }
 
+.search-section {
+    padding: 20px 5%;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 420px;
+}
+
+.search-bar label {
+    font-weight: 700;
+    color: var(--grey);
+}
+
+#product-search {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 1rem;
+    border: 2px solid var(--primary-green);
+    border-radius: 8px;
+    background: white;
+    color: var(--grey);
+}
+
+.search-count {
+    margin-top: 10px;
+    color: var(--grey);
+    font-size: 0.95rem;
+}
+
 @media (max-width: 768px) {
     .products {
         width: calc(50% -20px);
