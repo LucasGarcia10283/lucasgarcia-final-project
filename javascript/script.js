@@ -23,10 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const searchInput = document.getElementById('product-search');
-    const searchCount = document.getElementById('search-count');
     const productCards = document.querySelectorAll('.products');
 
     const updateSearchCount = (visible, total) => {
+        if (!searchCount) return;
+
         if (visible === total) {
             searchCount.textContent = `Showing all ${total} items.`;
         } else if (visible === 0) {

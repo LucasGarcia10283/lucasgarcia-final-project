@@ -146,11 +146,7 @@ img {
     color: var(--grey);
 }
 
-.search-count {
-    margin-top: 10px;
-    color: var(--grey);
-    font-size: 0.95rem;
-}
+
 
 @media (max-width: 768px) {
     .products {
